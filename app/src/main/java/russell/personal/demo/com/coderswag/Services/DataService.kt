@@ -1,6 +1,6 @@
 package russell.personal.demo.com.coderswag.Services
 
-import russell.personal.demo.com.coderswag.Controller.Category
+import russell.personal.demo.com.coderswag.Model.Category
 import russell.personal.demo.com.coderswag.Model.Product
 
 /**
@@ -9,10 +9,10 @@ import russell.personal.demo.com.coderswag.Model.Product
 object DataService {
 
     val categories = listOf(
-            Category("SHIRTS","shirtimage"),
-            Category("HOODIES","hoodieimage"),
-            Category("HATS","hatimage"),
-            Category("DIGITAL","digitalgoodsimage")
+            Category("SHIRTS", "shirtimage"),
+            Category("HOODIES", "hoodieimage"),
+            Category("HATS", "hatimage"),
+            Category("DIGITAL", "digitalgoodsimage")
     )
 
     val hats = listOf(
@@ -32,6 +32,6 @@ object DataService {
             Product("Devslopes Badge Light Gray","$30","shirt02"),
             Product("Devslopes Logo Shirt Red","$28","shirt03"),
             Product("Devslopes Hustle","$22","shirt04"),
-            Product("Kickflip studios","$18","shirt05"
-            )
+            Product("Kickflip studios","$18","shirt05")
+    )
 }
