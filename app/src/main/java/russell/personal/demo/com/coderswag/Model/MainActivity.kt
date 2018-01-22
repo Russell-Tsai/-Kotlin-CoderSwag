@@ -1,7 +1,8 @@
-package russell.personal.demo.com.coderswag
+package russell.personal.demo.com.coderswag.Model
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import russell.personal.demo.com.coderswag.R
 
 class MainActivity : AppCompatActivity() {
 
